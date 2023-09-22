@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "66w4kjdjq9yus44kDq8uO2ISpLW6R6gRDSfP1+y/P8yaHF2+urF3F/j2tUVUMq7as3T4apHjLXluFHqY+TWs/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Skaramucha\\Documents\\горыныч попер в ит\\Program_lesson\\Homework__S1_2\\Homework__S1_2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Skaramucha\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.11\\microsoft.netcore.app.ref.7.0.11.nupkg.sha512",
+    "C:\\Users\\Skaramucha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.11\\microsoft.windowsdesktop.app.ref.7.0.11.nupkg.sha512",
+    "C:\\Users\\Skaramucha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.11\\microsoft.aspnetcore.app.ref.7.0.11.nupkg.sha512",
+    "C:\\Users\\Skaramucha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.11\\microsoft.netcore.app.host.win-x64.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
