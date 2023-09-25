@@ -7,8 +7,11 @@ public static class Program
 {         
     public static void Main()
     {
-		int numberA = 5;
-		int numberB = 7;
+		// Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
+		Console.WriteLine("Введите число A ");
+		int numberA = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("Введите число B ");
+		int numberB = Convert.ToInt32(Console.ReadLine());
 		if (numberA>numberB)
 		{
             Console.Write("Большее число = ");
@@ -21,69 +24,16 @@ public static class Program
         }
 		Console.WriteLine("Нажмите любую кнопку для продолжения ");
 		Console.ReadKey(true);
-		
-		int numberA1 = 2;
-		int numberB1 = 9;
-		if (numberA>numberB)
-		{
-            Console.Write("Большее число = ");
-		    Console.WriteLine(numberA1);
-		}
-		else
-		{
-		Console.Write("Большее число = ");
-		Console.WriteLine(numberB1);
-        }
-		Console.WriteLine("Нажмите любую кнопку для продолжения ");
-		Console.ReadKey(true);
-	
-		int numberA2 = -9;
-		int numberB2 = -3;
-		if (numberA>numberB)
-		{
-            Console.Write("Большее число = ");
-		    Console.WriteLine(numberA2);
-		}
-		else
-		{
-		Console.Write("Большее число = ");
-		Console.WriteLine(numberB2);
-        }
-		Console.WriteLine("Нажмите любую кнопку для продолжения ");
-		Console.ReadKey(true);
-	int[]array = { 2, 3, 7};
-	 int max = 0;
-	 for (int count=0;count<array.Length; count++)
+
+	Console.WriteLine("Введите 3 числа ");
+	int[] array = new int[3];
+	for (int i = 0; i < array.Length; i++)
 	{
-		if (array[count]>max);
-		max = array[count];
+		Console.WriteLine(string.Format("Введите {0}й элемент массива:",i+1));
+   		array[i] = Convert.ToInt32(Console.ReadLine());
 	}
-    Console.Write("Максимальнон число = ");
-	Console.WriteLine(max);
-	Console.WriteLine("Нажмите любую кнопку для продолжения ");
-	Console.ReadKey(true);
-	int[]array1 = { 44, 5, 78};
-	int max1 = 0;
-	int count1 = 0;
-	while (count1<array1.Length)
-	{
-	    if (max1<array1[count1])
-		{
-	        max1 = array1[count1];
-		    count1++;
-		}
-		else 
-		{
-		    count1++;
-		}
-	}
-	Console.Write("Максимальнон число = ");
-	Console.WriteLine(max1);
-	Console.WriteLine("Нажмите любую кнопку для продолжения ");
-	Console.ReadKey(true);
-	int[]array2 = { 22, 3, 9};
 	int max2 = int.MinValue;
-	foreach(int num in array2)
+	foreach(int num in array)
 	{
 		if(num>max2)
 		{
@@ -114,13 +64,13 @@ public static class Program
 		if (numD1 % 2 == 0)
 		{
 		Console.Write(numD1);
-		if (numD1 < (numD - 2))
+		if (numD1 != numD)
 		{
 			Console.Write($", ");
 		}
 		else
 		{
-			Console.Write($".");
+			Console.Write($" ");
 		}
 		numD1++;
 		}
